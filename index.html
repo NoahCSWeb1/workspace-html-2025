@@ -174,10 +174,19 @@
                 <label> Pop <input type="radio" name="genre" value="Pop"></label>
                 <label> Jazz <input type="radio" name="genre" value="Jazz"></label>
             </p>
-            <p> Your favorite music service:
+            <p> Please select your favorite music service:
                 <label> iTunes <input type="checkbox" name="musservice" value="itunes"></label>
                 <label> Last.fm <input type="checkbox" name="musservice" value="last.fm"></label>
                 <label> Spotify <input type="checkbox" name="musservice" value="Spotify"></label>
+            </p>
+            <p> Please select your favorite device:
+                <label> iTunes <input type="Ipod" name="device" value="Ipod"></label>
+                <label> Last.fm <input type="Radio" name="device" value="Radio"></label>
+                <label> Spotify <input type="Computer" name="device" value="Computer"></label>
+
+            <p> Subscribe to our email list!
+                Email Address: <input type="email" placeholder="xxx@usca.edu" required>
+            </p>
             </p>
             <p>
                 <textarea name="comment" id="comment" cols="30" rows="10">
@@ -192,7 +201,8 @@
                     <option value="SteamOP"> SteamOP</option>
                     <option value="Android"> Android</option>
                 </select>
-            </p>
+            </p> 
+        </form>
 
 
     </div>
@@ -235,22 +245,30 @@
         </form>
         
         <!--Required--> <!-- NOT COMPLETE-->
-        <form action="" name="User Info"></form>
-        <p>
-            Email Address: <input type="Mobile Email" placeholder="email" required>
-        </p>
+      <form>
+        <input type="text" placeholder="First name">
+        <input type="text" placeholder="Last name">
+        <br><br>
 
-        <p>
-            New Password: <input type="pass" placeholder="NewPassword">
+        <input type="text" placeholder="Mobile number or email">
+        <br><br>
 
-        </p>
-        <p>
-            Birthday: <input type="birthday" placeholder="Birthday">
+        <input type="password" placeholder="New password">
+        <br><br>
 
-        </p>
-        <p>
-            <input type="submit" value="submit">
-        </p>
+        <label>Birthday:</label><br>
+        <input type="text" placeholder="MM/DD/YYYY">
+        <br><br>
+
+        <label>
+          <input type="radio" name="gender"> Female
+        </label>
+        <label>
+          <input type="radio" name="gender"> Male
+        </label>
+        <br><br>
+        <button type="submit">Sign Up</button>
+  </form>
     </div>
 
     <div class"practice">
